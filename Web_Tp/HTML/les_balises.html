@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>gestion des balises</title>
+	</head>
+	<body>
+		<h1>Les balises</h1>
+		<button>un bouton</button>
+		<button title="plop">
+			<img src="../images/loupfeupeti.png" alt="loupfeupeti" title="un loup">
+		</button>
+
+
+
+
+
+		<h2>Les balises de formulaires</h2>
+		<FORM method="get" action="les balises.html" name="mon_formulaires" >
+
+		<p>
+			nom:<input type="text" name="famille" size="10" placeholder="nom" /> <br/>
+			prénom:<input type="text" name="prénom" size="10" value="prénom"/>	<br/>
+			
+
+			<input type="radio" name="civilité" value="1"/>monsieur <br/>
+			<input type="radio" name="civilité" value="2"/>madame <br/>
+			<input type="radio" name="civilité" value="3"/>chat <br/>
+
+			<input type="checkbox" name="webstatic"/> webstatic <br/>
+			<input type="checkbox" name="algo"/> algo <br/>
+			<input type="checkbox" name="anglais"/> anglais <br/>
+			<input type="checkbox" name="tpalgo" checked /> TPalgo <br/>
+
+			<input type="email" name="email" placeholder="email" required=""/> <br/>
+			<input type="password" name="password" placeholder="mdp"/> <br/>
+
+			<textarea placeholder="commentaire" rows="5" cols="15"></textarea> <br/>
+
+			<select name="truc" size="2" title="caca">
+				<option value="1" selected >étudiant</option>
+				<option value="2">retraité</option>
+				<option value="3">mort</option>
+			</select>
+
+			<br/>
+			<input type="date" name="date" placeholder="plop"/>
+
+
+
+			<input list="age"/>
+
+			<datalist>
+				<option value="1" selected>étudiant</option>
+				<option value="2">retraité</option>
+				<option value="3">mort</option>
+			</datalist>
+
+			<fieldset>
+				<legend>Renseignement personelle</legend>
+			</fieldset>
+
+			<fieldset>
+				<legend></legend>
+				<textarea></textarea>
+			</fieldset>	
+
+
+
+			<input type="submit" name="validation" value="bloublou"> <br/>
+
+
+
+		</p>
+
+
+
+
+		</FORM>
+	
+	</body>
+	</html>

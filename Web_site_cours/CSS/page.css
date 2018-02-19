@@ -1,0 +1,22 @@
+body {
+	background: url(../Images/rouge.jpg);
+	font-size: 125%;
+	color: green;
+}
+
+img{
+	float: right;
+}
+
+h1{
+	clear: both;
+}
+
+th, tr, caption{
+	border: 1px solid black;
+}
+
+table {
+	display: inline;
+}
+

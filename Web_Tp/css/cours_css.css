@@ -1,0 +1,121 @@
+body{
+	background-color: black;
+	color:white;
+}
+
+.chap1{
+	background-color: red; 
+}
+
+.chap2{
+	background-color: blue;
+}
+
+span{
+	font-style: italic;
+}
+
+dt{
+	background-color: red;
+	font-size: 200%;
+}
+
+dd{
+	background-color: green;
+	font-style: italic;
+}
+
+li{
+	color: blue;
+}
+
+ol li{ font-style: italic;
+		color: red;
+}
+ 
+p{font-size: xx-small;}
+
+h1+p{
+	color: green;
+
+}
+
+a{
+	color: blue;
+}
+
+a[title]{
+	color: red;
+}
+
+a[title="cliquez la"]{
+	color: green;
+}
+
+a[title*="cliquez"]{
+	font-size: 200%;
+}
+
+
+
+/*
+
+ECRIRE DANS LE HEAD:
+
+ <link rel=stylesheet href="cours_css.css"
+
+P{
+
+}
+
+
+STYLE DE: classe(ex: p) (Donc pour tout les paragraphe)
+		  id(#)(1 seule utilisation)
+		  class(.)(plusieurs utilisations)
+
+DIV=Pour les balises de type block (ceux qui font un saut de ligne ex: p)
+Span=Pour les balises de type inline (ceux qui ne font pas de saut de ligne ex: li)
+
+SELECTEUR AVANCEES:
+BALISES qui en inclut une autres, selecteur selecteur.
+(element d'une liste numéroté)
+
+A + B style à la première balise qui suit A. 
+
+Une balise qui possède des attributs. A[attribut]  ou A[attribut="valeur"] ou A[attribut*="valeur"=] (avec l'étoile, sous forme générique donc qui contient cette valeur.
+
+FORMATAGE DU TEXTE:
+	pixel,
+	relatif: em, ex, %.
+
+
+
+	small, xx-small
+	medium,large,
+
+
+
+Font-family: police.
+        ,     ,    ,serif;
+        Arial
+        Arial black
+        Comic Sans MS
+        Courier New
+        Gorgia
+        Impact
+     	Times New Roman
+     	Verdana
+
+Site de police:
+   font squirrel
+   Dafont
+Les format.eot .otf .svg .woff
+
+@font-face{
+	font-family:'Masuperpolice';
+	src: url('Masuperpolice'.eot) format('eot'),
+		 url('Masuperpolice'.eot) format('svg'),
+		 url('Masuperpolice'.eot) format('woff');
+}
+
+*/

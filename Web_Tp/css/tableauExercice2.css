@@ -1,0 +1,8 @@
+table, td, th{
+	border: 1px black solid;
+	border-color: red;
+
+}
+table{
+	width: 200%;
+}
